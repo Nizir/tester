@@ -1,13 +1,13 @@
 @font-face {
-    font-family:KillingFont;
-    src:url(KillingFont.otf);
+    font-family: KillingFont;
+    src: url(KillingFont.otf);
 }
 
-body { 
+body{ 
 	margin: 0;
 	background: url('../pic/MET.jpg'); 
-	color : white;
-	font-family : KillingFont
+	color:white;
+	font-family:KillingFont
  
  }
  *{
@@ -18,13 +18,18 @@ body {
 	 background : url('../pic/HT.png'); 
 	 color: red;	 
 	 font-size: 80px;
-	 font-weight:700 ;
+	 font-weight:700px ;
 	 padding: 100px 100px; 
 	 box-shadow: 0  0 20px rgba(0,0,0,255);
 	 max-width:1000px;
 	 margin: 0 auto;
 	 
  }
+ .content:after(
+	 content:"";
+	 clear: both;
+	 display: table;
+)
 .content{
 	 background:url('../pic/shade.png');
  }
@@ -68,6 +73,6 @@ nav a:hover{
 	color:red;
 	padding:15px 15px ;
 	box-shadow: 0  0 30px rgba(0,0,0,255);
-	font-family:KillingFont;
+	font-family:KillingFont
 	text-shadow: 0 0 2px ;
 }
