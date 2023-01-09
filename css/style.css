@@ -1,0 +1,73 @@
+@font-face {
+    font-family:KillingFont;
+    src:url(KillingFont.otf);
+}
+
+body { 
+	margin: 0;
+	background: url('../pic/MET.jpg'); 
+	color : white;
+	font-family : KillingFont
+ 
+ }
+ *{
+	 box-sizing:border-box
+ 
+ }
+ header {
+	 background : url('../pic/HT.png'); 
+	 color: red;	 
+	 font-size: 80px;
+	 font-weight:700 ;
+	 padding: 100px 100px; 
+	 box-shadow: 0  0 20px rgba(0,0,0,255);
+	 max-width:1000px;
+	 margin: 0 auto;
+	 
+ }
+.content{
+	 background:url('../pic/shade.png');
+ }
+
+ 
+ nav{
+	width:15%;
+	background:url('../pic/shade3.png');
+	color:red;
+	float:left;
+	padding:0 0 20px;
+	box-shadow: 0  0 20px rgba(0,0,0,255);
+	}
+nav ul{
+	margin: 0;
+	padding: 30px;
+	list-style:none;
+}	
+nav ul li{
+		border-bottom: 1px dashed rgba(255,0,0);
+}
+nav a{
+	color:red;
+	text-decoration:none;
+	padding:15px 0;
+	display:block;
+	text-shadow: 0 0 1.5px ;
+	
+	
+}
+nav a:hover{
+	padding: 15px;
+	background:rgba(255,0,0);
+	color:yellow;
+	text-shadow: 0 0 1.5px ;
+}
+ main{
+	width:85%;
+	background:url('../pic/shade3.png');
+	float:left;
+	color:red;
+	padding:15px 15px ;
+	box-shadow: 0  0 30px rgba(0,0,0,255);
+	font-family:KillingFont;
+	text-shadow: 0 0 2px ;
+}
